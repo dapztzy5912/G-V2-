@@ -1,0 +1,36 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #0070f3;
+}
+
+.description {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
